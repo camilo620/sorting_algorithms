@@ -38,7 +38,7 @@ void sort_list(listint_t **list)
 			next = linked->next;
 			if (linked->n > next->n)
 			{
-				swapitron(list, linked, next), swap = 1;
+				swape(list, linked, next), swap = 1;
 			}
 			else
 				linked = linked->next;
