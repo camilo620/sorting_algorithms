@@ -19,7 +19,7 @@ void swape(listint_t **linked, listint_t *lino, listint_t *linen)
 	print_list((const listint_t *) *linked);
 }
 /**
- * sort_list - Sorts
+ * cocktail_sort_list - Sorts
  * @list: list
  * Return: void
  */
