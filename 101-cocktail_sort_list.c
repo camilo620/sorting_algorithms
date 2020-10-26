@@ -23,7 +23,7 @@ void swape(listint_t **linked, listint_t *lino, listint_t *linen)
  * @list: list
  * Return: void
  */
-void sort_list(listint_t **list)
+void cocktail_sort_list(listint_t **list)
 {
 	listint_t *prev, *next, *linked;
 	int swap = 1;
